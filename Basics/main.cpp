@@ -9,14 +9,20 @@ int main() {
 
 
     BasicConcepts basicConcepts;
-    //basicConcepts.Basic();
+    basicConcepts.Basic();
 
     BasicOperations basicOperations;
-    //basicOperations.Operations();
+    basicOperations.Operations();
 
     Loops loops;
-    //loops.Loop();
+    loops.Loop();
 
     NestedLoops nestedLoops;
     nestedLoops.NestLoops();
+    
+    ConditionalStatements conditionalStatements;
+    conditionalStatements.Conditional();
+
+    Arrays arrays;
+    arrays.Array();
 }
